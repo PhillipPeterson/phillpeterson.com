@@ -10,7 +10,7 @@ class Footer extends React.Component {
         if (link === 'email') {
             window.open('mailto:phillip1.peterson@umontana.edu?Subject=Response%20From%20Portfolio%20Site');
         } else if (link === 'linkedin') {
-            window.open('https://www.linkedin.com/in/phillippeterson');
+            window.open('https://www.linkedin.com/in/phillip-peterson-ba6820175/');
         } else if (link === 'git') {
             window.open('https://www.github.com/phillippeterson');
         }
