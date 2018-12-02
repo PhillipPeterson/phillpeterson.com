@@ -26,7 +26,7 @@ class Post extends Component {
           
           <article className="pt-5 text-secondary text-justify" style={{ fontSize: '0.9rem', whiteSpace: 'pre-line' }}>
             Hello! Welcome to my personal website! As you can see there's not much here yet 
-            but it will eventually become site for hosting my own portfolio and resume!
+            but it will eventually become a site for hosting my own portfolio and resume!
           </article>
           
         </div> }
