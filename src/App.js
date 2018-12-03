@@ -13,7 +13,7 @@ const App = () => (
       <Container className="px-0">
         <Row noGutters className="pt-2 pt-md-5 w-100 px-4 px-xl-0 position-relative">
           <Col xs={4} sm={4} md={4} />
-          <Col xs={4} md={5} className="pb-5 mb-5 pb-md-0 mb-md-0 mx-auto mx-md-0">
+          <Col md={5} className="pb-5 mb-5 pb-md-0 mb-md-0 xs-auto mx-auto mx-md-0">
             <Card />
             <Footer />
           </Col>
