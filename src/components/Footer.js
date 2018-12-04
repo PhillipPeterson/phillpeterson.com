@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdMail } from 'react-icons/md';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { Button, Row, Col } from 'reactstrap';
+import { Button, Row } from 'reactstrap';
 
 
 class Footer extends React.Component {

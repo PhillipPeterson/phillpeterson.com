@@ -2,8 +2,8 @@ import React from 'react';
 import logo from '../logo.svg';
 
 import {
-  Container, Row, Col, Form, Input, Button, Navbar, Nav,
-  NavbarBrand, NavLink, NavItem, UncontrolledDropdown,
+  Container, Row, Col, Navbar, Nav, NavbarBrand, 
+  NavLink, NavItem, UncontrolledDropdown,
   DropdownToggle, DropdownMenu, DropdownItem
 } from 'reactstrap';
 
