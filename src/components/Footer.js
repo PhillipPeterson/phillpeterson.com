@@ -17,8 +17,8 @@ class Footer extends React.Component {
 
     render() {
         return (
-            <Row className="border-top">
-                <span className="pb-4 h2 text-dark border-bottom">Contact</span>
+            <Row className="pt-4 border-top">
+                <span className="pb-4 h2 text-dark border-bottom"><b>Contact</b></span>
                 <p><b>Email</b>: phillip1.peterson@umontana.edu | <b>Phone</b>: (406)-890-9262</p>
                 <div>
                     <Button style={{marginRight:15,width:75,height:75,borderRadius: 50,backgroundColor: "#ff4343", }} onClick={() => this.onContactButtonClick('email')}>
@@ -27,7 +27,7 @@ class Footer extends React.Component {
                     <Button style={{marginRight:15, width:75,height:75,borderRadius: 50,backgroundColor:"#0077B5"}} onClick={() => this.onContactButtonClick('linkedin')}>
                         <FaLinkedin style={{width:35,height:35}} />
                     </Button>
-                    <Button style={{width:75,height:75,borderRadius: 50,borderWidth:0,backgroundColor: "whitesmoke",color:"black"}} onClick={() => this.onContactButtonClick('git')}>
+                    <Button style={{margin: '0 12px 0 12px',width:75,height:75,borderRadius: 50,borderWidth:0,backgroundColor: "#222"}} onClick={() => this.onContactButtonClick('git')}>
                         <FaGithub style={{ width:45,height:45}} />
                     </Button>
                 </div>
