@@ -18,7 +18,7 @@ class Footer extends React.Component {
 
     render() {
         return (
-            <Row>
+            <Row className="border-top">
                 <span className="d-block pb-4 h2 text-dark border-bottom border-gray">Contact</span>
                 <p><b>Email</b>: phillip1.peterson@umontana.edu | <b>Phone</b>: (406)-890-9262</p>
                 <div>

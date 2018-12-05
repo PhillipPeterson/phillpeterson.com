@@ -9,7 +9,7 @@ class PortfolioCard extends React.Component {
     return (
     <Fragment>
       
-      <Card>
+      <Card style={{marginBottom: 30}}>
         <CardBody>
           <CardTitle className="h3 mb-2 pt-2 font-weight-bold text-secondary">Best Site Ever!</CardTitle>
           <CardText className="text-secondary mb-4" style={{ fontSize: '0.75rem' }}>
