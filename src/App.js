@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import Header from './components/Header';
-import Card from './components/Card';
-import Footer from './components/Footer';
+import Header from './components/header';
+import Footer from './components/footer';
+import Portfolio from './components/portfolio';
 
 const App = () => (
   <Fragment>
@@ -14,7 +14,7 @@ const App = () => (
         <Row noGutters className="pt-2 pt-md-5 w-100 px-4 px-xl-0 position-relative">
           <Col xs={4} sm={4} md={4} />
           <Col md={5} className="pb-5 mb-5 pb-md-0 mb-md-0 xs-auto mx-auto mx-md-0">
-            <Card />
+            <Portfolio />
             <Footer />
           </Col>
           <Col xs={4} sm={4} md={4} />
