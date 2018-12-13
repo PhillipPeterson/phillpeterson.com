@@ -6,27 +6,27 @@ import { Button, Row } from 'reactstrap';
 const style = {
 
     email: {
-        width: '75px',
-        height: '75px',
-        borderRadius: '50px',
-        marginRight: '15px',
-        backgroundColor: "#ff4343"
+        width: 75,
+        height: 75,
+        borderRadius: 75/2,
+        marginRight: 15,
+        backgroundColor: '#ff4343'
     },
 
     linkedin: {
-        width: '75px',
-        height: '75px',
-        borderRadius: '50px',
-        marginRight: '15px',
-        backgroundColor:"#0077B5"
+        width: 75,
+        height: 75,
+        borderRadius: 75/2,
+        marginRight: 15,
+        backgroundColor: '#0077B5'
     },
 
     github: {
-        width: '75px',
-        height: '75px',
-        borderRadius: '50px',
-        marginRight: '15px',
-        backgroundColor: "#222"
+        width: 75,
+        height: 75,
+        borderRadius: 75/2,
+        marginRight: 15,
+        backgroundColor: '#222'
     }
 
 };
