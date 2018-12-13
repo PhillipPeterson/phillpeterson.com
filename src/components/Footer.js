@@ -8,7 +8,7 @@ const style = {
     email: {
         width: 75,
         height: 75,
-        borderRadius: 75/2,
+        borderRadius: 75 / 2,
         marginRight: 15,
         backgroundColor: '#ff4343'
     },
@@ -16,7 +16,7 @@ const style = {
     linkedin: {
         width: 75,
         height: 75,
-        borderRadius: 75/2,
+        borderRadius: 75 / 2,
         marginRight: 15,
         backgroundColor: '#0077B5'
     },
@@ -24,7 +24,7 @@ const style = {
     github: {
         width: 75,
         height: 75,
-        borderRadius: 75/2,
+        borderRadius: 75 / 2,
         marginRight: 15,
         backgroundColor: '#222'
     }
@@ -33,7 +33,7 @@ const style = {
 
 class Footer extends React.Component {
 
-    
+
 
     onClick(link) {
         if (link === 'email') {
@@ -52,13 +52,13 @@ class Footer extends React.Component {
                 <p><b>Email</b>: phillip1.peterson@umontana.edu | <b>Phone</b>: (406)-890-9262</p>
                 <div>
                     <Button style={style.email} onClick={() => this.onClick('email')}>
-                        <FaEnvelope style={{width:35,height:35}} />
+                        <FaEnvelope style={{ width: 35, height: 35 }} />
                     </Button>
                     <Button style={style.linkedin} onClick={() => this.onClick('linkedin')}>
-                        <FaLinkedin style={{width:35,height:35}} />
+                        <FaLinkedin style={{ width: 35, height: 35 }} />
                     </Button>
                     <Button style={style.github} onClick={() => this.onClick('git')}>
-                        <FaGithub style={{width:45,height:45}} />
+                        <FaGithub style={{ width: 45, height: 45 }} />
                     </Button>
                 </div>
             </Row>
