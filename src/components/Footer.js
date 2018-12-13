@@ -3,9 +3,39 @@ import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import { Button, Row } from 'reactstrap';
 
 
+const style = {
+
+    email: {
+        width: '75px',
+        height: '75px',
+        borderRadius: '50px',
+        marginRight: '15px',
+        backgroundColor: "#ff4343"
+    },
+
+    linkedin: {
+        width: '75px',
+        height: '75px',
+        borderRadius: '50px',
+        marginRight: '15px',
+        backgroundColor:"#0077B5"
+    },
+
+    github: {
+        width: '75px',
+        height: '75px',
+        borderRadius: '50px',
+        marginRight: '15px',
+        backgroundColor: "#222"
+    }
+
+};
+
 class Footer extends React.Component {
 
-    onContactButtonClick(link) {
+    
+
+    onClick(link) {
         if (link === 'email') {
             window.open('mailto:phillip1.peterson@umontana.edu?Subject=Response%20From%20Portfolio%20Site');
         } else if (link === 'linkedin') {
@@ -21,13 +51,13 @@ class Footer extends React.Component {
                 <span className="pb-4 h2 text-dark border-bottom"><b>Contact</b></span>
                 <p><b>Email</b>: phillip1.peterson@umontana.edu | <b>Phone</b>: (406)-890-9262</p>
                 <div>
-                    <Button style={{marginRight:15,width:75,height:75,borderRadius: 50,backgroundColor: "#ff4343", }} onClick={() => this.onContactButtonClick('email')}>
+                    <Button style={style.email} onClick={() => this.onClick('email')}>
                         <FaEnvelope style={{width:35,height:35}} />
                     </Button>
-                    <Button style={{marginRight:15, width:75,height:75,borderRadius: 50,backgroundColor:"#0077B5"}} onClick={() => this.onContactButtonClick('linkedin')}>
+                    <Button style={style.linkedin} onClick={() => this.onClick('linkedin')}>
                         <FaLinkedin style={{width:35,height:35}} />
                     </Button>
-                    <Button style={{width:75,height:75,borderRadius: 50,borderWidth:0,backgroundColor: "#222"}} onClick={() => this.onContactButtonClick('git')}>
+                    <Button style={style.github} onClick={() => this.onClick('git')}>
                         <FaGithub style={{width:45,height:45}} />
                     </Button>
                 </div>
