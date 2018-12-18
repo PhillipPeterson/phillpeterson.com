@@ -10,7 +10,8 @@ const style = {
         height: 75,
         borderRadius: 75 / 2,
         marginRight: 15,
-        backgroundColor: '#ff4343'
+        backgroundColor: '#ff4343',
+        boxShadow: "5px 5px 20px black"
     },
 
     linkedin: {
@@ -18,7 +19,8 @@ const style = {
         height: 75,
         borderRadius: 75 / 2,
         marginRight: 15,
-        backgroundColor: '#0077B5'
+        backgroundColor: '#0077B5',
+        boxShadow: "5px 5px 20px black"
     },
 
     github: {
@@ -26,7 +28,8 @@ const style = {
         height: 75,
         borderRadius: 75 / 2,
         marginRight: 15,
-        backgroundColor: '#222'
+        backgroundColor: '#222',
+        boxShadow: "5px 5px 20px black"
     }
 
 };
