@@ -2,12 +2,21 @@ import React from 'react';
 import logo from '../logo.svg';
 
 import {
-	Container, Row, Col, Navbar, Nav, NavbarBrand,
-	NavLink, NavItem, UncontrolledDropdown,
-	DropdownToggle, DropdownMenu, DropdownItem
+	Container, Row, Col
 } from 'reactstrap';
 
 const AVATAR = 'https://www.gravatar.com/avatar/429e504af19fc3e1cfa5c4326ef3394c?s=240&d=mm&r=pg';
+
+const styles = {
+
+	row: {
+		textAlign: 'center'
+	},
+
+	logo: {
+		width: 80
+	}
+};
 
 class Header extends React.Component {
 
@@ -16,25 +25,27 @@ class Header extends React.Component {
 		return (
 
 			<header>
-				<Navbar fixed="top" color="light" light expand="xs" className="border-bottom border-gray bg-white" style={{ height: 80 }}>
+				<Row className="border-bottom border-gray bg-white" style={styles.row}>
 
-					<Container>
-						<Row noGutters className="position-relative w-100 align-items-center">
+					<Col xs={4} sm={4} md={4} />
 
-							<Col xs={4} sm={4} md={4} />
+					<Col xs={4} sm={4} md={4}>
+						<Container >
 
-							<Col className="d-flex justify-content-xs-start justify-content-lg-center">
-								<NavbarBrand className="d-inline-block p-0" href="/" style={{ width: 80 }}>
-									<img src={logo} alt="logo" className="position-relative img-fluid" />
-								</NavbarBrand>
-							</Col>
+							<img src={logo} alt="logo" className="logo" style={styles.logo} />
 
-							<Col xs={4} sm={4} md={4} />
+							
+						</Container>
 
-						</Row>
-					</Container>
+						<Container>
+							<span className="h2">Welcome to my website!</span>
+							<p>This is my website that I'll be using for my portfolio! There isn't much yet while I'll work on it but there'll be more to come </p>
+						</Container>
+					</Col>
 
-				</Navbar>
+					<Col xs={4} sm={4} md={4} />
+					
+				</Row>
 			</header>
 
 		);

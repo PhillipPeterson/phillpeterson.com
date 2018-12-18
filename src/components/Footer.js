@@ -6,27 +6,27 @@ import { Button, Row } from 'reactstrap';
 const style = {
 
     email: {
-        width: 75,
-        height: 75,
-        borderRadius: 75 / 2,
+        width: 70,
+        height: 70,
+        borderRadius: 70 / 2,
         marginRight: 15,
         backgroundColor: '#ff4343',
         boxShadow: "5px 5px 20px black"
     },
 
     linkedin: {
-        width: 75,
-        height: 75,
-        borderRadius: 75 / 2,
+        width: 70,
+        height: 70,
+        borderRadius: 70 / 2,
         marginRight: 15,
         backgroundColor: '#0077B5',
         boxShadow: "5px 5px 20px black"
     },
 
     github: {
-        width: 75,
-        height: 75,
-        borderRadius: 75 / 2,
+        width: 70,
+        height: 70,
+        borderRadius: 70 / 2,
         marginRight: 15,
         backgroundColor: '#222',
         boxShadow: "5px 5px 20px black"
@@ -51,7 +51,7 @@ class Footer extends React.Component {
     render() {
         return (
             <Row className="pt-4 border-top">
-                <span className="pb-4 h2 text-dark border-bottom"><b>Contact</b></span>
+                <span className="pb-4 h2 border-bottom"><b>Contact</b></span>
                 <p><b>Email</b>: phillip1.peterson@umontana.edu | <b>Phone</b>: (406)-890-9262</p>
                 <div>
                     <Button style={style.email} onClick={() => this.onClick('email')}>

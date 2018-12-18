@@ -11,10 +11,10 @@ class PortfolioCard extends React.Component {
 
 				<Card style={{ marginBottom: 30 }}>
 					<CardBody>
-						<CardTitle className="h3 mb-2 pt-2 font-weight-bold text-secondary">{this.props.title}</CardTitle>
-						<CardText className="text-secondary mb-4" style={{ fontSize: '0.75rem' }}>
+						<CardTitle className="h3 mb-3 pb-2 font-weight-bold border-bottom">{this.props.title}</CardTitle>
+						<CardText className="text-secondary mb-4" style={{ }}>
 							{this.props.text}
-					</CardText>
+						</CardText>
 					</CardBody>
 				</Card>
 
