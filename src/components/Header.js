@@ -29,7 +29,7 @@ class Header extends React.Component {
 
 					<Col xs={4} sm={4} md={4} />
 
-					<Col xs={4} sm={4} md={4}>
+					<Col md={5} >
 						<Container >
 
 							<img src={logo} alt="logo" className="logo" style={styles.logo} />
@@ -44,7 +44,7 @@ class Header extends React.Component {
 					</Col>
 
 					<Col xs={4} sm={4} md={4} />
-					
+
 				</Row>
 			</header>
 
