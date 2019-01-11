@@ -52,7 +52,7 @@ class Footer extends React.Component {
         return (
             <Row className="pt-4 border-top">
                 <span className="pb-4 h2 border-bottom"><b>Contact</b></span>
-                <p><b>Email</b>: phillip1.peterson@umontana.edu | <b>Phone</b>: (406)-890-9262</p>
+                <p><b>Email</b>: phillippeterson137@gmail.com | <b>Phone</b>: (406)-890-9262</p>
                 <div>
                     <Button style={style.email} onClick={() => this.onClick('email')}>
                         <FaEnvelope style={{ width: 35, height: 35 }} />
