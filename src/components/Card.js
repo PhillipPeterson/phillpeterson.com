@@ -6,14 +6,17 @@ import { Card, CardBody, CardTitle, CardText } from 'reactstrap';
 class PortfolioCard extends React.Component {
 
 	render() {
+
+		const {props} = this;
+		const {title, text} = props.data;
 		return (
 			<Fragment>
 
 				<Card style={{ marginBottom: 30 }}>
 					<CardBody>
-						<CardTitle className="h3 mb-3 pb-2 font-weight-bold border-bottom">{this.props.title}</CardTitle>
+						<CardTitle className="h3 mb-3 pb-2 font-weight-bold border-bottom">{title}</CardTitle>
 						<CardText className="text-secondary mb-4" style={{ }}>
-							{this.props.text}
+							{text}
 						</CardText>
 					</CardBody>
 				</Card>

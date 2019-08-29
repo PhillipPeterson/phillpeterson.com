@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
-import { Button, Row } from 'reactstrap';
+import { Container, Button, Row } from 'reactstrap';
 
 
 const style = {
@@ -40,7 +40,7 @@ class Footer extends React.Component {
 
     onClick(link) {
         if (link === 'email') {
-            window.open('mailto:phillip1.peterson@umontana.edu?Subject=Response%20From%20Portfolio%20Site');
+            window.open('mailto:phillippeterson137@gmail.com?Subject=Response%20From%20Portfolio%20Site');
         } else if (link === 'linkedin') {
             window.open('https://www.linkedin.com/in/phillip-peterson-ba6820175/');
         } else if (link === 'git') {
@@ -50,9 +50,13 @@ class Footer extends React.Component {
 
     render() {
         return (
-            <Row className="pt-4 border-top">
-                <span className="pb-4 h2 border-bottom"><b>Contact</b></span>
-                <p><b>Email</b>: phillippeterson137@gmail.com | <b>Phone</b>: (406)-890-9262</p>
+            <Container className="border-top">
+            <Row className="pt-4">
+                <span className="pb-2 h2 border-bottom"><b>Contact</b></span>
+                
+            </Row>
+            <Row>
+                <p><b>Email</b>: phillippeterson137@gmail.com</p>
                 <div>
                     <Button style={style.email} onClick={() => this.onClick('email')}>
                         <FaEnvelope style={{ width: 35, height: 35 }} />
@@ -65,6 +69,7 @@ class Footer extends React.Component {
                     </Button>
                 </div>
             </Row>
+            </Container>
         );
     }
 }

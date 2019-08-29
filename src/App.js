@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import Header from './components/header';
-import Footer from './components/footer';
-import Portfolio from './components/portfolio';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
 
 const App = () => (
   <Fragment className="xs-auto mx-auto">
