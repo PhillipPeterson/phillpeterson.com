@@ -7,6 +7,10 @@ const AVATAR = 'https://www.gravatar.com/avatar/429e504af19fc3e1cfa5c4326ef3394c
 
 const styles = {
 
+	header: {
+		width: "98.5%"
+	},
+
 	row: {
 		textAlign: 'center'
 	},
@@ -22,7 +26,7 @@ class Header extends React.Component {
 
 		return (
 
-			<header>
+			<header style={styles.header}>
 				<Row className="border-bottom border-gray bg-white" style={styles.row}>
 
 					<Col xs={4} sm={4} md={4} />
