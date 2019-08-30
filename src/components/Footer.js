@@ -55,7 +55,7 @@ class Footer extends React.Component {
                 <span className="pb-2 h2 border-bottom"><b>Contact</b></span>
                 
             </Row>
-            <Row>
+            <Row className="pb-2">
                 <p><b>Email</b>: phillippeterson137@gmail.com</p>
                 <div>
                     <Button style={style.email} onClick={() => this.onClick('email')}>

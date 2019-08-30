@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import PortfolioCard from './Card'
 
-const data = require('../data.json');
+const data = require('../resources/data.json');
 
 class Portfolio extends React.Component {
 
