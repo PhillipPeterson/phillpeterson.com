@@ -2,10 +2,10 @@ import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Portfolio from './components/Portfolio';
+import PortfolioSlider from './components/PortfolioSlider';
 
 const App = () => (
-	<Fragment className="xs-auto mx-auto">
+	<Fragment>
 	<Header />
 
 		
@@ -15,7 +15,7 @@ const App = () => (
 			<Row className="pt-0 w-100 px-4 px-xl-0 position-relative">
 			<Col xs={4} sm={4} md={4} />
 			<Col md={5} className="pb-5 mb-5 pb-md-0 mb-md-0  mx-md-0">
-				<Portfolio />
+				<PortfolioSlider />
 				<Footer />
 			</Col>
 			<Col xs={4} sm={4} md={4} />
