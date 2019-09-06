@@ -3,13 +3,8 @@ import logo from '../logo.svg';
 
 import {Container, Row, Col, Button} from 'reactstrap';
 
-const AVATAR = 'https://www.gravatar.com/avatar/429e504af19fc3e1cfa5c4326ef3394c?s=240&d=mm&r=pg';
-
 const styles = {
 
-	header: {
-		width: "98.5%"
-	},
 
 	row: {
 		textAlign: 'center'
@@ -26,8 +21,8 @@ class Header extends React.Component {
 
 		return (
 
-			<header style={styles.header}>
-				<Row className="border-bottom border-gray bg-white pb-3" style={styles.row}>
+			<header className="border-bottom">
+				<Row className="bg-white pb-3" style={styles.row}>
 
 					<Col xs={4} sm={4} md={4} />
 
