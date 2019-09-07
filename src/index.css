@@ -1,4 +1,9 @@
 body {
+  height: 100vh;
+  background: linear-gradient(177deg, rgba(122, 122, 122, 0.05) 0%, rgba(122, 122, 122, 0.05) 40%,rgba(64, 64, 64, 0.05) 40%, rgba(64, 64, 64, 0.05) 100%),linear-gradient(300deg, rgba(200, 200, 200, 0.1) 0%, rgba(200, 200, 200, 0.1) 62%,rgba(39, 39, 39, 0.1) 62%, rgba(39, 39, 39, 0.1) 100%),linear-gradient(28deg, rgba(243, 243, 243, 0.01) 0%, rgba(243, 243, 243, 0.01) 58%,rgba(154, 154, 154, 0.01) 58%, rgba(154, 154, 154, 0.01) 100%),linear-gradient(318deg, rgba(136, 136, 136, 0.04) 0%, rgba(136, 136, 136, 0.04) 58%,rgba(205, 205, 205, 0.04) 58%, rgba(205, 205, 205, 0.04) 100%),linear-gradient(297deg, rgba(240, 240, 240, 0.09) 0%, rgba(240, 240, 240, 0.09) 53%,rgba(146, 146, 146, 0.09) 53%, rgba(146, 146, 146, 0.09) 100%),linear-gradient(10deg, rgba(19, 19, 19, 0.1) 0%, rgba(19, 19, 19, 0.1) 18%,rgba(125, 125, 125, 0.1) 18%, rgba(125, 125, 125, 0.1) 100%),linear-gradient(84deg, rgba(146, 146, 146, 0.08) 0%, rgba(146, 146, 146, 0.08) 10%,rgba(123, 123, 123, 0.08) 10%, rgba(123, 123, 123, 0.08) 100%),linear-gradient(90deg, rgb(71, 65, 230),rgb(121, 231, 221));
+  
+
+
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -21,4 +26,8 @@ code {
 .center {
   text-align: center;
 
+}
+
+.card {
+  background: linear-gradient(102deg, rgba(249, 249, 249, 0.1) 0%, rgba(249, 249, 249, 0.1) 14%,rgba(161, 161, 161, 0.1) 14%, rgba(161, 161, 161, 0.1) 100%),linear-gradient(310deg, rgba(26, 26, 26, 0.03) 0%, rgba(26, 26, 26, 0.03) 71%,rgba(189, 189, 189, 0.03) 71%, rgba(189, 189, 189, 0.03) 100%),linear-gradient(133deg, rgba(132, 132, 132, 0.1) 0%, rgba(132, 132, 132, 0.1) 8%,rgba(95, 95, 95, 0.1) 8%, rgba(95, 95, 95, 0.1) 100%),linear-gradient(142deg, rgba(110, 110, 110, 0.03) 0%, rgba(110, 110, 110, 0.03) 46%,rgba(8, 8, 8, 0.03) 46%, rgba(8, 8, 8, 0.03) 100%),linear-gradient(346deg, rgba(231, 231, 231, 0.05) 0%, rgba(231, 231, 231, 0.05) 6%,rgba(71, 71, 71, 0.05) 6%, rgba(71, 71, 71, 0.05) 100%),linear-gradient(118deg, rgba(251, 251, 251, 0.07) 0%, rgba(251, 251, 251, 0.07) 72%,rgba(24, 24, 24, 0.07) 72%, rgba(24, 24, 24, 0.07) 100%),linear-gradient(338deg, rgba(75, 75, 75, 0.08) 0%, rgba(75, 75, 75, 0.08) 37%,rgba(213, 213, 213, 0.08) 37%, rgba(213, 213, 213, 0.08) 100%),linear-gradient(90deg, rgb(199, 202, 132),rgb(25, 94, 125));
 }

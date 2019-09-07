@@ -2,7 +2,6 @@ import React, { Fragment } from 'react';
 
 import { Card, CardBody, CardTitle, CardText } from 'reactstrap';
 
-
 class PortfolioCard extends React.Component {
 
 	render() {
@@ -12,10 +11,10 @@ class PortfolioCard extends React.Component {
 		return (
 			<Fragment>
 
-				<Card style={{ marginBottom: 30 }}>
+				<Card classname="card">
 					<CardBody>
 						<CardTitle className="h3 mb-3 pb-2 font-weight-bold border-bottom">{title}</CardTitle>
-						<CardText className="text-secondary mb-4" style={{ }}>
+						<CardText className=" mb-4" style={{ }}>
 							{text}
 						</CardText>
 					</CardBody>
