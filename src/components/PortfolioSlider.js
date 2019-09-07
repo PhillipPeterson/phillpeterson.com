@@ -10,7 +10,8 @@ class PortfolioSlider extends React.Component {
     var settings = {
       arrows: false,
       dots: true,
-      autoplay: true
+      autoplay: true,
+      autoplaySpeed: 7000
     };
     return (
       <div className="slider">
