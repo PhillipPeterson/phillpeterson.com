@@ -8,27 +8,29 @@ const data = require('../resources/data.json');
 class PortfolioSlider extends React.Component {
   render() {
     var settings = {
-      arrows: false,
-      dots: true,
-      autoplay: true,
-      autoplaySpeed: 7000
+		arrows: false,
+		dots: true,
+		autoplay: true,
+		autoplaySpeed: 7000
     };
-    return (
-      <div className="slider">
-        <Slider {...settings}>
-          
-          <div className="slider">
-          <PortfolioCard data={data["0"]} />
-          </div>
-          <div className="slider">
-          <PortfolioCard data={data["1"]}/>
-          </div>
-          <div className="slider"> 
-          <PortfolioCard data={data["2"]}/>
-          </div>
-          
-        </Slider>
-      </div>
+	return (
+		<div>
+			<Slider {...settings}>
+				
+				<div className="slider">
+					<PortfolioCard data={data["0"]} />
+				</div>
+
+				<div className="slider">
+					<PortfolioCard data={data["1"]}/>
+				</div>
+
+				<div className="slider"> 
+					<PortfolioCard data={data["2"]}/>
+				</div>
+				
+			</Slider>
+		</div>
     );
   }
 }

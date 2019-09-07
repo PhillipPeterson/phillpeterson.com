@@ -5,11 +5,6 @@ import {Container, Row, Col, Button} from 'reactstrap';
 
 const styles = {
 
-
-	row: {
-		textAlign: 'center'
-	},
-
 	logo: {
 		width: 80
 	}
@@ -22,16 +17,13 @@ class Header extends React.Component {
 		return (
 
 			<header className="border-bottom">
-				<Row className="bg-white pb-3" style={styles.row}>
+				<Row className="center pb-3">
 
 					<Col xs={4} sm={4} md={4} />
 
 					<Col md={4} >
 						<Container >
-
 							<img src={logo} alt="logo" className="logo" style={styles.logo} />
-
-							
 						</Container>
 
 						<Container>

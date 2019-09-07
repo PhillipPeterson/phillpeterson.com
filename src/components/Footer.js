@@ -2,7 +2,6 @@ import React from 'react';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import { Container, Button, Row, Col } from 'reactstrap';
 
-
 const style = {
 
     span: {
@@ -36,16 +35,9 @@ const style = {
         boxShadow: "5px 5px 20px black"
     },
 
-    footer: {
-        margin: '0 auto',
-        textAlign: 'center'
-    }
-
 };
 
 class Footer extends React.Component {
-
-
 
     onClick(link) {
         if (link === 'email') {
@@ -60,38 +52,31 @@ class Footer extends React.Component {
     render() {
         return (
  
-            <footer className="border-top" >
+            <footer className="border-top pb-4" >
                 <Row>
                     
                     <Col xs={4} sm={4} md={4} />
 
                     <Col md={4}>
                         
-                        <Container className="pt-2" style={style.footer}>
-
-
-                                <span className="pb-1 h2" style={style.span}><b>Contact</b></span>
-                        
-
-
-                                <p className="pt-3"><b>Email</b>: phillippeterson137@gmail.com</p>
-
-
-                            
+                        <Container className="pt-2 center" >
+                            <span className="pb-1 h2" style={style.span}><b>Contact</b></span>
+                            <p className="pt-3"><b>Email</b>: phillippeterson137@gmail.com</p>
                         </Container>
 
-                        <Container style={style.footer}>
+                        <Container className="center">
 
-                                <Button style={style.email} onClick={() => this.onClick('email')}>
-                                        <FaEnvelope style={{ width: 35, height: 35 }} />
-                                    </Button>
-                                    <Button style={style.linkedin} onClick={() => this.onClick('linkedin')}>
-                                        <FaLinkedin style={{ width: 35, height: 35 }} />
-                                    </Button>
-                                    <Button style={style.github} onClick={() => this.onClick('git')}>
-                                        <FaGithub style={{ width: 45, height: 45 }} />
-                                    </Button>
+                            <Button style={style.email} onClick={() => this.onClick('email')}>
+                                <FaEnvelope style={{ width: 35, height: 35 }} />
+                            </Button>
 
+                            <Button style={style.linkedin} onClick={() => this.onClick('linkedin')}>
+                                <FaLinkedin style={{ width: 35, height: 35 }} />
+                            </Button>
+
+                            <Button style={style.github} onClick={() => this.onClick('git')}>
+                                <FaGithub style={{ width: 45, height: 45 }} />
+                            </Button>
 
                         </Container> 
                     </Col>
