@@ -4,10 +4,6 @@ import { Container, Button, Row, Col } from 'reactstrap';
 
 const style = {
 
-    span: {
-        borderBottom: '1px solid gray',
-    },
-
     email: {
         width: 70,
         height: 70,
@@ -60,7 +56,7 @@ class Footer extends React.Component {
                     <Col md={4}>
                         
                         <Container className="pt-2 center" >
-                            <span className="pb-1 h2" style={style.span}><b>Contact</b></span>
+                            <span className="pb-1 h2 border-bottom"><b>Contact</b></span>
                             <p className="pt-3"><b>Email</b>: phillippeterson137@gmail.com</p>
                         </Container>
 
