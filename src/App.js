@@ -4,11 +4,14 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import PortfolioSlider from './components/PortfolioSlider';
 import Skills from './components/Skills';
+import Header2 from './components/Header2';
 
 const App = () => (
 	<Fragment>
 		
-		<Header />
+		<div className="parallax">
+			<Header2 />
+		</div>
 
 		<main className="pt-5 center">
 		
