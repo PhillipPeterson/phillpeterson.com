@@ -11,7 +11,7 @@ class PortfolioCard extends React.Component {
 		return (
 			<Fragment>
 
-				<Card classname="card">
+				<Card className="card">
 					<CardBody>
 						<CardTitle className="h3 mb-3 pb-2 font-weight-bold border-bottom">{title}</CardTitle>
 						<CardText className=" mb-4" style={{ }}>

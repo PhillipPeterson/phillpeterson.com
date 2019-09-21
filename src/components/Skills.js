@@ -1,27 +1,55 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import { Row, Col, Container } from 'reactstrap';
 
+import AppsOutlined from '@material-ui/icons/AppsOutlined';
+import LanguageIcon from '@material-ui/icons/Language';
+import DevicesIcon from '@material-ui/icons/Devices';
+
+
+const styles = {
+
+    icon: {
+        color: 'white',
+        width: 50,
+        height: 50
+    }
+
+}
+
 class Skills extends React.Component {
+
+    
 
 	render() {
 
         return (
 
-            <div className="pt-2 border-top">
+            <div className="pb-4 pt-2 border-top">
                 <Container>
-                    <Row className="center">
+                    <Row around="md">
 
-                        <Col xs={4} sm={4} md={4}>
+                        <Col className="center" md={4}>
+                            <span className="span-icon">
+                                <DevicesIcon style={styles.icon}/>
+                            </span>
+                            <h2>Responsive Design</h2>
                             <p>I'll probably have some stuff over here too!</p>
                         </Col>
 
-                        <Col md={4} >
+                        <Col className="center" md={4} >
+                            <span className="span-icon">
+                                <LanguageIcon style={styles.icon}/>
+                            </span>
                             <h2 className="font-weight-bold">Skills</h2>
                             <p>This will be the spot where I put my skillset I have developed when I get around to it soon enough!</p>
                         </Col>
 
-                        <Col xs={4} sm={4} md={4}>
+                        <Col className="center"md={4}>
+                            <span className="span-icon">
+                                <AppsOutlined style={styles.icon}/>
+                            </span>
+                            <h2>Software</h2>
                             <p>And over here!</p>                        
                         </Col>
 
