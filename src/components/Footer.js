@@ -4,6 +4,11 @@ import { Container, Button, Row, Col } from 'reactstrap';
 
 const style = {
 
+    footer: {
+		color: 'white',
+		paddingTop: '75px',
+	},
+
     email: {
         width: 70,
         height: 70,
@@ -48,7 +53,7 @@ class Footer extends React.Component {
     render() {
         return (
  
-            <footer className="border-top pb-4" >
+            <footer style={style.footer} >
                 <Row>
                     
                     <Col xs={4} sm={4} md={4} />
@@ -56,11 +61,12 @@ class Footer extends React.Component {
                     <Col md={4}>
                         
                         <Container className="pt-2 center" >
-                            <span className="pb-1 h2 border-bottom"><b>Contact</b></span>
-                            <p className="pt-3"><b>Email</b>: phillippeterson137@gmail.com</p>
+                            <h1 className="pb-1"><b>Contact me</b></h1>
+                            <h3>Getting in touch with me is just a click away</h3>
+                            <p className="pt-3 h5"><b>Email</b>: phillippeterson137@gmail.com</p>
                         </Container>
 
-                        <Container className="center">
+                        <Container className="center pt-3">
 
                             <Button style={style.email} onClick={() => this.onClick('email')}>
                                 <FaEnvelope style={{ width: 35, height: 35 }} />

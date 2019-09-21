@@ -25,7 +25,7 @@ class Skills extends React.Component {
 
         return (
 
-            <div className="pb-4 pt-2 border-top">
+            <div className="pb-5 pt-5 border-top">
                 <Container>
                     <Row around="md">
 

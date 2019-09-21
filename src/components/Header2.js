@@ -4,8 +4,6 @@ const style = {
 	header: {
 		color: 'white',
 		paddingTop: '200px',
-
-
 	}
 }
 

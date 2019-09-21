@@ -9,7 +9,7 @@ import Header2 from './components/Header2';
 const App = () => (
 	<Fragment>
 		
-		<div className="parallax">
+		<div className="parallax" id="par1">
 			<Header2 />
 		</div>
 
@@ -29,7 +29,9 @@ const App = () => (
 		</main>
 		<Skills />
 
-		<Footer />
+		<div className="parallax" id="par2">
+			<Footer />
+		</div>
 		
 	</Fragment>
 );
