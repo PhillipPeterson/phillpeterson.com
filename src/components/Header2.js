@@ -10,12 +10,9 @@ const style = {
 
 class Header2 extends React.Component {
 
-
-
 	render() {
 
 		return (
-
 			<div className="center" style={style.header}>
 				<h1>Phillip Peterson</h1>
 				<h3>Software Developer</h3>

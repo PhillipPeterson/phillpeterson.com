@@ -45,7 +45,7 @@ class Skills extends React.Component {
                             <p>This will be the spot where I put my skillset I have developed when I get around to it soon enough!</p>
                         </Col>
 
-                        <Col className="center"md={4}>
+                        <Col className="center" md={4}>
                             <span className="span-icon">
                                 <AppsOutlined style={styles.icon}/>
                             </span>
