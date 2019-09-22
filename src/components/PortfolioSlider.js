@@ -17,15 +17,15 @@ class PortfolioSlider extends React.Component {
 		<div>
 			<Slider {...settings}>
 				
-				<div className="slider">
+				<div>
 					<PortfolioCard data={data["0"]} />
 				</div>
 
-				<div className="slider">
+				<div>
 					<PortfolioCard data={data["1"]}/>
 				</div>
 
-				<div className="slider"> 
+				<div> 
 					<PortfolioCard data={data["2"]}/>
 				</div>
 				
