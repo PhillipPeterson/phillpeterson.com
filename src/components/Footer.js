@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
-import { Container, Button, Row, Col } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
+import Button from '@material-ui/core/Button';
 
 const style = {
 
@@ -64,7 +65,7 @@ class Footer extends React.Component {
                             <h1 className="pb-1"><b>Contact me</b></h1>
                             <h3>Getting in touch with me is just a click away</h3>
                             <p className="pt-3 pb-3 h5">phillippeterson137@gmail.com</p>
-                            <Button color="primary" href={require('../resources/Resume.pdf')}>Take a look at my resume!</Button>
+                            <Button color="primary" variant="contained" href={require('../resources/Resume.pdf')}>Take a look at my resume!</Button>
                         </Container>
 
                         <Container className="center pt-3">
