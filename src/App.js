@@ -3,13 +3,13 @@ import { Container, Row, Col } from 'reactstrap';
 import Footer from './components/Footer';
 import PortfolioSlider from './components/PortfolioSlider';
 import Skills from './components/Skills';
-import Header2 from './components/Header2';
+import Header from './components/Header';
 
 const App = () => (
 	<Fragment>
 		
 		<div className="parallax" id="par1">
-			<Header2 />
+			<Header />
 		</div>
 
 		<main className="pt-5 center">
