@@ -74,12 +74,12 @@ class Footer extends React.Component {
                                 <FaEnvelope style={{ width: 35, height: 35 }} />
                             </Button>
 
-                            <Button style={style.linkedin} onClick={() => this.onClick('linkedin')}>
-                                <FaLinkedin style={{ width: 35, height: 35 }} />
-                            </Button>
-
                             <Button style={style.github} onClick={() => this.onClick('git')}>
                                 <FaGithub style={{ width: 45, height: 45 }} />
+                            </Button>
+
+                            <Button style={style.linkedin} onClick={() => this.onClick('linkedin')}>
+                                <FaLinkedin style={{ width: 35, height: 35 }} />
                             </Button>
 
                         </Container> 
