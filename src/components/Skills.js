@@ -34,15 +34,21 @@ class Skills extends React.Component {
                                 <DevicesIcon style={styles.icon}/>
                             </span>
                             <h2>Responsive Design</h2>
-                            <p>I'll probably have some stuff over here too!</p>
+                            <p>I have expereince with both desktop and mobile software applications
+                                and will help you design an app that utilizes both scalabiltiy and resusability.
+                            </p>
                         </Col>
 
                         <Col className="center" md={4} >
                             <span className="span-icon">
                                 <LanguageIcon style={styles.icon}/>
                             </span>
-                            <h2 className="font-weight-bold">Skills</h2>
-                            <p>This will be the spot where I put my skillset I have developed when I get around to it soon enough!</p>
+                            <h2>Skills</h2>
+                            <p>
+                                I develop with Javascript, Java, Python, and SQL.<br />
+                                I have experience with Angular, React, and Ionic.<br />
+                                Let me design your Salesforce platform.
+                            </p>
                         </Col>
 
                         <Col className="center" md={4}>
@@ -50,7 +56,8 @@ class Skills extends React.Component {
                                 <AppsOutlined style={styles.icon}/>
                             </span>
                             <h2>Software</h2>
-                            <p>And over here!</p>                        
+                            <p>I can help you design and build production quality software while 
+                                integrating testing and continuous integration.</p>                        
                         </Col>
 
                     </Row>
