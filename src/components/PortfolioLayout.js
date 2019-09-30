@@ -12,13 +12,13 @@ class PortfolioLayout extends React.Component {
 				
 			<Container className="pb-5">
 				<Row className="px-4 position-relative">
-					<Col className="center pb-3" md={4} >
+					<Col className="pb-3" md={4} >
 						<PortfolioCard data={data["0"]} />
 					</Col>
-					<Col className="center pb-3" md={4} >
+					<Col className="pb-3" md={4} >
 						<PortfolioCard data={data["1"]} />
 					</Col>
-					<Col className="center pb-3" md={4} >
+					<Col className="pb-3" md={4} >
 						<PortfolioCard data={data["2"]} />
 					</Col>
 				</Row>

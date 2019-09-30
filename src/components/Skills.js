@@ -45,9 +45,9 @@ class Skills extends React.Component {
                             </span>
                             <h2>Skills</h2>
                             <p>
-                                I develop with Javascript, Java, Python, and SQL.<br />
-                                I have experience with Angular, React, and Ionic.<br />
-                                Let me design your Salesforce platform.
+                                OOP: Javascript, Java, Python, and SQL.<br />
+                                Front End: Angular, React.<br />
+                                Experience with SalesForce platform.
                             </p>
                         </Col>
 

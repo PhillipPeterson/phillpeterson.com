@@ -5,6 +5,7 @@ import PortfolioSlider from './components/PortfolioSlider';
 import Skills from './components/Skills';
 import Header from './components/Header';
 import PortfolioLayout from './components/PortfolioLayout';
+import About from './components/About';
 
 const App = () => (
 	<Fragment>
@@ -13,22 +14,26 @@ const App = () => (
 			<Header />
 		</div>
 
-		<main className="pt-5 center">
+		<Skills />
+
+		<main className="pt-5 ">
 		
 			<Container className="pb-5">
 				<Row className="px-4 position-relative">
-					<Col xs={4} sm={4} md={4} />
-					<Col md={4} className="pb-6">
+					<Col md={6} className="pb-6" >
+						<About />
+					</Col>
+					<Col md={6} className="pb-6">
 						<PortfolioSlider />
 					</Col>
-					<Col xs={4} sm={4} md={4} />
+					
 				</Row>
 
 			</Container>
 			
 		</main>
 		<PortfolioLayout />
-		<Skills />
+		
 
 		<div className="parallax" id="par2">
 			<Footer />
