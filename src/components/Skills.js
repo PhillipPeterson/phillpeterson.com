@@ -34,7 +34,7 @@ class Skills extends React.Component {
                                 <DevicesIcon style={styles.icon}/>
                             </span>
                             <h2>Responsive Design</h2>
-                            <p>I have expereince with both desktop and mobile software applications
+                            <p>I have experience with both desktop and mobile software applications
                                 and will help you design an app that utilizes both scalabiltiy and resusability.
                             </p>
                         </Col>
