@@ -33,13 +33,13 @@ code {
 	background-size: cover;
 }
 
-#par1 {
+#par-header {
 	height: 500px;
   background-image: url("./resources/portfolio-background.jpg");
   background-position: center;
 } 
 
-#par2 {
+#par-footer {
 	height: 450px;
   background-image: url("./resources/portfolio-background2.jpg");
   background-position: 0 350px;

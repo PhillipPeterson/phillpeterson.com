@@ -11,7 +11,7 @@ import SkillSlider from './components/SkillSlider';
 const App = () => (
 	<Fragment>
 		
-		<div className="parallax" id="par1">
+		<div className="parallax" id="par-header">
 			<Header />
 		</div>
 
@@ -34,7 +34,7 @@ const App = () => (
 		
 		<PortfolioLayout />
 
-		<div className="parallax" id="par2">
+		<div className="parallax" id="par-footer">
 			<Footer />
 		</div>
 		
