@@ -19,7 +19,7 @@ class SkillSlider extends React.Component {
 				<div className="mt-1 pl-2 pr-2">
 					<h4 className="font-weight-bold" >Front End</h4><hr />
                     <p>HTML, CSS, JavaScript, Typescript, Bootstrap</p><hr />
-                    <p>jQuery, Node, Angular, React, Ionic</p>
+                    <p>jQuery, Node, Angular, React, Ionic, Wordpress</p>
 				</div>
 
 				<div className="mt-1 pl-2 pr-2">
