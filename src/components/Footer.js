@@ -37,7 +37,7 @@ const style = {
         margin: '0px 15px 0px 0px',
         backgroundColor: '#222',
         boxShadow: "5px 5px 20px black",
-        color: 'white'
+        color: 'white'  
     },
 
 };
@@ -73,15 +73,15 @@ class Footer extends React.Component {
 
                         <Container className="center pt-3">
 
-                            <Button className="grow" style={style.email} onClick={() => this.onClick('email')}>
+                            <Button id="grow" style={style.email} onClick={() => this.onClick('email')}>
                                 <FaEnvelope style={{ width: 35, height: 35 }} />
                             </Button>
 
-                            <Button className="grow" style={style.github} onClick={() => this.onClick('git')}>
+                            <Button id="grow" style={style.github} onClick={() => this.onClick('git')}>
                                 <FaGithub style={{ width: 45, height: 45 }} />
                             </Button>
 
-                            <Button className="grow" style={style.linkedin} onClick={() => this.onClick('linkedin')}>
+                            <Button id="grow" style={style.linkedin} onClick={() => this.onClick('linkedin')}>
                                 <FaLinkedin style={{ width: 35, height: 35 }} />
                             </Button>
 

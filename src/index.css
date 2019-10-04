@@ -63,5 +63,10 @@ code {
   height: 35px;
 }
 
-.grow { transition: all .5s ease-in-out; }
-.grow:hover { transform: scale(1.1); }
+#grow {
+  transition: all .1s ease-in-out;
+}
+#grow:hover { 
+  transform: scale(1.2);
+  opacity: .8; 
+}
