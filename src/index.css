@@ -29,19 +29,20 @@ code {
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
 	background-size: cover;
 }
 
 #par1 {
 	height: 500px;
-	background-image: url("./resources/portfolio-background.jpg");
+  background-image: url("./resources/portfolio-background.jpg");
+  background-position: center;
 } 
 
 #par2 {
 	height: 450px;
-	background-image: url("./resources/portfolio-background2.jpg");
+  background-image: url("./resources/portfolio-background2.jpg");
+  background-position: 0 350px;
  } 
 
 .span-icon {
