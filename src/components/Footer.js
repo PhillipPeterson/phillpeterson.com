@@ -14,27 +14,30 @@ const style = {
         width: 70,
         height: 70,
         borderRadius: 70 / 2,
-        marginRight: 15,
+        margin: '0px 15px 0px 15px',
         backgroundColor: '#ff4343',
-        boxShadow: "5px 5px 20px black"
+        boxShadow: "5px 5px 20px black",
+        color: 'white'
     },
 
     linkedin: {
         width: 70,
         height: 70,
         borderRadius: 70 / 2,
-        marginRight: 15,
+        margin: '0px 15px 0px 0px',
         backgroundColor: '#0077B5',
-        boxShadow: "5px 5px 20px black"
+        boxShadow: "5px 5px 20px black",
+        color: 'white'
     },
 
     github: {
         width: 70,
         height: 70,
         borderRadius: 70 / 2,
-        marginRight: 15,
+        margin: '0px 15px 0px 0px',
         backgroundColor: '#222',
-        boxShadow: "5px 5px 20px black"
+        boxShadow: "5px 5px 20px black",
+        color: 'white'
     },
 
 };
