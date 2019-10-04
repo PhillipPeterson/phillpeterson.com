@@ -40,9 +40,9 @@ code {
 } 
 
 #par-footer {
-	height: 450px;
+	height: 500px;
   background-image: url("./resources/portfolio-background2.jpg");
-  background-position: 0 350px;
+  background-position: 0 200px;
  } 
 
 .span-icon {
@@ -62,3 +62,6 @@ code {
   width: 80px;
   height: 35px;
 }
+
+.grow { transition: all .5s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
