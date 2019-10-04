@@ -5,6 +5,7 @@ import { Row, Col, Container } from 'reactstrap';
 import AppsOutlined from '@material-ui/icons/AppsOutlined';
 import LanguageIcon from '@material-ui/icons/Language';
 import DevicesIcon from '@material-ui/icons/Devices';
+import Button from '@material-ui/core/Button';
 
 
 const styles = {
@@ -45,10 +46,10 @@ class Skills extends React.Component {
                             </span>
                             <h2>Skills</h2>
                             <p>
-                                OOP: Javascript, Java, Python, and SQL.<br />
-                                Front End: Angular, React.<br />
-                                Experience with SalesForce platform.
+                                This page was designed using Reactjs! I can also design a website using Wordpress!
                             </p>
+                            <Button color="primary" variant="contained" href='http://www.phillpeterson.com/wordpress/'>Take a look here!</Button>
+
                         </Col>
 
                         <Col className="center" md={4}>
