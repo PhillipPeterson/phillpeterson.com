@@ -21,10 +21,10 @@ const App = () => (
 		
 			<Container className="pb-5">
 				<Row className="px-4 position-relative">
-					<Col md={6} className="pb-6" >
+					<Col md={6} >
 						<About />
 					</Col>
-					<Col md={6} className="pb-6">
+					<Col md={6} >
 						<SkillSlider />
 					</Col>
 				</Row>
