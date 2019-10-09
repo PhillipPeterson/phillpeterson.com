@@ -26,11 +26,11 @@ class Skills extends React.Component {
 
         return (
 
-            <div className="pb-5 pt-5">
+            <div className="pt-5">
                 <Container>
                     <Row around="md">
 
-                        <Col className="center" md={4}>
+                        <Col className="pb-3 center" md={4}>
                             <span className="span-icon">
                                 <DevicesIcon style={styles.icon}/>
                             </span>
@@ -40,11 +40,11 @@ class Skills extends React.Component {
                             </p>
                         </Col>
 
-                        <Col className="center" md={4} >
+                        <Col className="pb-3 center" md={4} >
                             <span className="span-icon">
                                 <LanguageIcon style={styles.icon}/>
                             </span>
-                            <h2>Skills</h2>
+                            <h2>Web Design</h2>
                             <p>
                                 This page was designed using Reactjs! I can also design a website using Wordpress!
                             </p>
@@ -52,7 +52,7 @@ class Skills extends React.Component {
 
                         </Col>
 
-                        <Col className="center" md={4}>
+                        <Col className="pb-3 center" md={4}>
                             <span className="span-icon">
                                 <AppsOutlined style={styles.icon}/>
                             </span>
