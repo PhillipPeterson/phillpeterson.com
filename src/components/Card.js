@@ -1,7 +1,10 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import { Card, CardContent, CardHeader, Typography } from '@material-ui/core';
 
+const cardStyle = {
+	height: '350px',
+}
 
 
 class PortfolioCard extends React.Component {
@@ -11,9 +14,8 @@ class PortfolioCard extends React.Component {
 		const {props} = this;
 		const {title, sub, text} = props.data;
 		return (
-			<Fragment >
 
-				<Card>
+				<Card style={cardStyle}>
 					<CardContent>
 						<CardHeader title={title} subheader={sub} className="h3 mb-3 pb-2 border-bottom" />
 						<Typography className=" mb-4" style={{ }}>
@@ -21,8 +23,6 @@ class PortfolioCard extends React.Component {
 						</Typography>
 					</CardContent>
 				</Card>
-
-			</Fragment>
 
 		);
 	}
