@@ -2,18 +2,18 @@
     "0": {
         "title": "GatherBoard Mobile",
         "sub": "Mobile App",
-        "text": "Gatherboard is an event sharing platform. This app was developed using the ionic framework to complement the website and make access easier for those on the go."
+        "text": "Gatherboard is an event sharing platform. The app was designed using the Ionic framework. I helped integrate some of the general design and implemented a calendar component to allow viewing events on individual days."
     },
 
     "1": {
         "title": "Recipe Book",
         "sub": "Java Swing",
-        "text": "Recipe book is a program developed in java as a way to keep track of your recipes. It allows you to create recipes with portions and instructions so you can know how to make them just like you want!"
+        "text": "Recipe book is a program developed in java Swing as a way to keep track of your recipes. It utilizes a local jdbc database to save all your favorite recipes! I designed most of the pages used for adding and editing recipes."
     },
 
     "2": {
         "title": "Bustin' Out",
         "sub": "C# 2D platformer",
-        "text": "Bustin' Out was a partially developed game 2D platformer using C#. The premise is that Megaman was a renegade cop who got arrested for going off the wall and now finds himself in prison where he must figure out how to make it the roof to make his great escape."
+        "text": "Bustin' Out was a partially developed game 2D platformer using C#. Megaman is a renegade cop tossed in the slammer and must make his great escape from the roof! I designed and implemented the enemies Megaman would face and some of Megaman's mechanics involving some animations."
     }
 }
