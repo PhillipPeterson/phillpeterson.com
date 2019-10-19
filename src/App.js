@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Footer from './components/Footer';
-import PortfolioSlider from './components/PortfolioSlider';
 import Skills from './components/Skills';
 import Header from './components/Header';
 import PortfolioLayout from './components/PortfolioLayout';
