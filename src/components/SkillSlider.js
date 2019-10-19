@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 class SkillSlider extends React.Component {
   render() {
-    var settings = {
+    const settings = {
 		arrows: false,
 		dots: true,
 		autoplay: true,
@@ -24,7 +24,7 @@ class SkillSlider extends React.Component {
 
 				<div className="mt-1 pl-2 pr-2">
                 <h4 className="font-weight-bold">Back End/Scripting</h4><hr />
-                    <p>Java, C#, SQL, Python</p>
+                    <p>Java, C#, SQL, Python, Firebase</p>
 				</div>
 
                 <div className="mt-1 pl-2 pr-2">
@@ -34,7 +34,7 @@ class SkillSlider extends React.Component {
 
 				<div className="mt-1 pl-2 pr-2"> 
                 <h4 className="font-weight-bold">Misc</h4><hr />
-                    <p>Netbeans, VSCode, Android Studio, Git, MySQL, Salesforce platform</p>
+                    <p>Netbeans, VSCode, Android Studio, Git, MySQL, Salesforce</p>
 				</div>
 				
 			</Slider>
