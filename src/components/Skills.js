@@ -48,7 +48,7 @@ class Skills extends React.Component {
                             <p>
                                 This page was designed using Reactjs! I can also design a website using Wordpress!
                             </p>
-                            <Button color="primary" variant="contained" href='http://www.phillpeterson.com/wordpress/'>Take a look here!</Button>
+                            <Button color="primary" variant="contained" href='https://phillpeterson.com/wordpress/'>Take a look here!</Button>
 
                         </Col>
 
